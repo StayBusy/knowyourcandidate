@@ -45,3 +45,85 @@
 	margin-right: 3em;
 }
 /*****************  END OF CUSTOM STYLING FOR SIGN IN PAGE ***************/
+
+
+/***********  BEGINNING OF STYLING FOR ANONYMOUS USER PAGE   *************/
+.anonymous_user_post {
+			margin-bottom: 40px;
+			margin-top: 40px;
+		}
+
+		.anonymous_user_picture {
+			width: 45px;
+			margin-right: 20px;
+		}
+
+		.anonymous_comment_header {
+			height: 40px;
+		}
+
+		.anonymous_comment_text {
+			margin-left: 65px;
+			text-align: justify;
+			font-size: 15px;
+		}
+
+		.anonymous_comment_body {
+			margin-top: 35px;
+			background-color: rgb(242, 242, 242);
+			padding: 20px;
+			padding-right: 70px;
+			border-radius: 5px;
+		}
+
+		.anonymous_comment_menu {
+			margin-top: 20px;
+		}
+
+		.anonymous_comment_menu a {
+			color: rgb(150, 150, 150);
+		}
+
+		.anonymous_comment_date {
+			position: relative;
+			top: -45px;
+		}
+
+		.anonymous_user_share {
+			align-self: flex-end;
+		}
+
+		.anonymous_user_share_img {
+			width: 30px;
+		}
+
+		footer.anonymous_user {
+			height: 70px;
+			background-color: rgb(196, 196, 196);
+			line-height: 70px;
+			margin-top: 50px;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		footer.anonymous_user a {
+			color: black;
+		}
+
+		@media screen and (max-width: 991px) {
+			.anonymous_user_share {
+				margin-top: 40px;
+				max-width: 200px;
+			}
+		}
+
+		@media screen and (max-width: 555px) {
+			footer.anonymous_user {
+				font-size: 11px;
+			}
+		}
+
+
+/**************   END OF STYLING FOR ANONYMOUS USER PAGE   ***********/
+
+
