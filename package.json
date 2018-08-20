@@ -24,6 +24,7 @@
     "jsonwebtoken": "^8.0.0",
     "knex": "^0.12.6",
     "mysql": "^2.13.0",
+    "reactstrap": "^6.4.0",
     "validator": "^6.2.1"
   },
   "devDependencies": {
