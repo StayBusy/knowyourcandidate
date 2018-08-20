@@ -1,4 +1,4 @@
-# NodeJS MySQL Boilerplate
+# Knowyourcandidate
 
 This app defines a very neat and modular structure to start you next nodejs project.
 
@@ -14,8 +14,8 @@ Using ES6, with Babel (http://babeljs.io/)
 
 ## Steps to run:
 ```
-git clone git@gitlab.com:raghavgarg1257/nodejs-mysql-boilerplate.git
-cd nodejs-mysql-boilerplate
+git clone https://github.com/StayBusy/knowyourcandidate.git
+cd knowyourcandidate
 cp env.example .env
 nano .env #now edit credentials according to your machine (mandatory for db connection)
 npm install
@@ -55,4 +55,6 @@ The app will be started on the mentioned port which will be printed in the conso
 # guide
 open* - means route is un-protected, anyone can access the route
 protected* - means a valid jwt token has to be used to access the route in header "Authorization" with value "Bearer {token}"
+```
+e "Bearer {token}"
 ```
