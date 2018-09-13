@@ -15,4 +15,9 @@ module.exports = (router, middlewares) => {
             res.status(HTTP.OK).json("So, you know there are more than one type of request");
         } );
 
+        router.route('/user') 
+        	.get( (req, res, next) => {
+        		res.status(HTTP.OK).json("user here");
+        	} )	
+
 };

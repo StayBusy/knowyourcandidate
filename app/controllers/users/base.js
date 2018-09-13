@@ -13,7 +13,7 @@ class Base {
 
     all (req, res, next) { next() }
 
-    // GET request
+    // GET request for getting user
     get (req, res) {
         Users.fetchAll()
         .then( all_users => {
@@ -30,7 +30,7 @@ class Base {
         .catch((error) => { ISE(error, res) });
     }
 
-    // POST request
+    // POST request for creating user
     post (req, res) {
 
         const user = new Users({
